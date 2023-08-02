@@ -1,5 +1,3 @@
-# React + Vite
-
 # Project Heroes
 
 ***
