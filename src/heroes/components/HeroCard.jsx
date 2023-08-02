@@ -28,7 +28,7 @@ const heroImageUrl=`/assets/heroes/${ id }.jpg`;
                     </div>
                     <div className="col-8">
                         <div className="card-body">
-                            <h7 className="card-title">{ superhero }</h7>
+                            <h5 className="card-title">{ superhero }</h5>
                             <p className="card-text">{alter_ego}</p>
                             {
                                 <CharacterByHero characters={characters} alter_ego={alter_ego} />
