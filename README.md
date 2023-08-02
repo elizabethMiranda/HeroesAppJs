@@ -1,8 +1,12 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Project Heroes
 
-Currently, two official plugins are available:
+***
+Visualiza la información principal de los superheroes y sus imagenes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clonar proyecto
+2. ```yarn install```
+3. Descargar las imagenes de la siguiente url:
+4. pegar las imagenes en la siguiente ruta assets/heroes
+5.  Levantar: ```yarn dev```
