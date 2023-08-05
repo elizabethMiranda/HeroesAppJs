@@ -6,6 +6,7 @@ import { types } from '../types/types';
 
 const init = () => {
   const user = JSON.parse( localStorage.getItem('user') );
+  console.log('ejcutando la funcion inicializadora');
   console.log(user);
   return {
     logged: !!user,
@@ -28,12 +29,14 @@ export const AuthProvider = ({ children }) => {
       }
 
       localStorage.setItem('user', JSON.stringify( user ));
-
+      console.log('llamando a la funcion que ejecuta la accion de login')
       dispatch(action);
+
     }
 
     const logout = () =>{
       localStorage.removeItem('user');
+      const action = {};
       dispatch();
     }
 
